@@ -30,7 +30,7 @@ trajectory statistics or predictive models.
 
 ---
 
-## This repository does not:
+## Note on Inference and Scope: This repository does not:
 
 - introduce a new stochastic model,
 - perform forecasting or inference,
