@@ -30,16 +30,14 @@ trajectory statistics or predictive models.
 
 ---
 
-## What this is *not*
-
-This repository does **not**:
+## This repository does not:
 
 - introduce a new stochastic model,
 - perform forecasting or inference,
 - attempt change-point detection,
 - optimize predictive accuracy.
 
-The goal is descriptive and geometric: to provide a **coordinate on stochastic dynamics**
+The goal is descriptive and geometric: **to provide a coordinate on stochastic dynamics**
 that is invariant, bounded, and comparable across systems.
 
 ---
@@ -51,7 +49,7 @@ that is invariant, bounded, and comparable across systems.
   - OU benchmark and drift recovery
   - Computation of θ(t) from local increments
   - Summary tables and plots
-  - Optional COVID-NET demonstration
+  - COVID-NET demonstration
 
 - **Code cells**  
   Are intentionally explicit and minimally abstracted so that each step can be read,
@@ -64,7 +62,7 @@ that is invariant, bounded, and comparable across systems.
 COVID-NET data are obtained from the CDC’s public surveillance feed
 (data.cdc.gov, asset `6jg4-xsqq`).
 
-Because this is a **live surveillance dataset**, numerical values may change if the
+Because this is a live surveillance dataset, numerical values may change if the
 notebook is re-run at a later date due to retrospective data updates.
 
 The results reported in the associated manuscript correspond to COVID-NET data
@@ -93,12 +91,10 @@ All analyses were developed and run in a standard Jupyter Notebook environment.
 
 If you want to:
 
-- **Understand the method** → read the notebook top to bottom.
-- **Reproduce the manuscript logic** → inspect the “OU benchmark” and θ summary sections.
-- **Experiment with new systems** → replace the input time series and re-run the estimator.
-- **Apply the idea elsewhere** → treat the code as a reference implementation, not a library.
-
----
+- **Understand the method:** → read the notebook top to bottom.
+- **Reproduce the manuscript logic:** → inspect the “OU benchmark” and θ summary sections.
+- **Experiment with new systems:** → replace the input time series and re-run the estimator.
+- **Apply the idea elsewhere:** → treat the code as a reference implementation.
 
 ## Conceptual takeaway
 
@@ -107,9 +103,15 @@ generators. By working directly at that level, the angular order parameter θ pr
 compact, invariant descriptor of stochastic regime that is independent of scale,
 parameterization, or domain.
 
----
 
-## License / reuse
+## License
 
-This code is provided for research and educational purposes.
-If you use or adapt it, a citation to the associated paper is appreciated.
+This repository is released under the MIT License.
+You are free to use, modify, and redistribute the code with attribution.
+See the `LICENSE` file for full details.
+
+MIT License
+
+Copyright (c) 2026 Anderson M. Rodriguez
+
+
