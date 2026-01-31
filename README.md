@@ -30,14 +30,14 @@ trajectory statistics or predictive models.
 
 ---
 
-## Note on Inference and Scope: This repository does not:
-
+## Note on Inference and Scope 
+This repository does not:
 - introduce a new stochastic model,
 - perform forecasting or inference,
 - attempt change-point detection,
 - optimize predictive accuracy.
 
-The goal is descriptive and geometric: **to provide a coordinate on stochastic dynamics**
+The goal is descriptive and geometric: i.e., **to provide a coordinate on stochastic dynamics**
 that is invariant, bounded, and comparable across systems.
 
 ---
@@ -54,6 +54,9 @@ that is invariant, bounded, and comparable across systems.
 - **Code cells**  
   Are intentionally explicit and minimally abstracted so that each step can be read,
   audited, or modified without hidden machinery.
+
+  - **Manuscript Pre-print**  
+  Included as a PDF.
 
 ---
 
