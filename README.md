@@ -9,13 +9,10 @@ It provides a minimal, transparent implementation of a generator-level coordinat
 that characterizes the local balance between deterministic drift and stochastic diffusion
 in stochastic dynamical systems.
 
-The code is intended to be *inspectable first, reusable second*.
+The code is intended to be both inspectable and reusable.
 
----
 
-## What this repo does
-
-This repository demonstrates:
+## This repository demonstrates:
 
 - **Generator-level estimation** of drift and diffusion from time series data
 - Construction of a **bounded angular order parameter**
